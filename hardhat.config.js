@@ -49,12 +49,7 @@ module.exports = {
       },
     },
   },
-  // etherscan: {
-  //   // The url for the Etherscan API you want to use.
-  //   // For example, here we're using the one for the Ropsten test network
-  //   url: "https://api.etherscan.io/api",
-  //   // Your API key for Etherscan
-  //   // Obtain one at https://etherscan.io/
-  //   apiKey: POLYGONSCAN_API_KEY,
-  // },
+  etherscan: {
+    apiKey: POLYGONSCAN_API_KEY,
+  },
 };
